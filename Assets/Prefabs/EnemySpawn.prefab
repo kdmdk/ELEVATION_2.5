@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1023568443313812307
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1023568443313812318}
+  - component: {fileID: 1023568443313812305}
+  - component: {fileID: 1023568443313812304}
+  - component: {fileID: 1023568443313812319}
+  m_Layer: 0
+  m_Name: EnemySpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1023568443313812318
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023568443313812307}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20.66493, y: -6.4069963, z: 32.93828}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1023568443313812305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023568443313812307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c2abbead55484f88b8ec3d62149663d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnObject:
+  - {fileID: 5982029011138368751, guid: 469545ba64b01404293f96d4b904be0d, type: 3}
+  - {fileID: 587965394386942521, guid: 64d1136efc5a845c499b70402071f2f8, type: 3}
+  - {fileID: 4744510544720716799, guid: fae9255f439884058aabaf49a04c1e2d, type: 3}
+  - {fileID: 1696834239769318143, guid: 3157bfb1d58d147e5b08cb9dbe96d4fc, type: 3}
+  - {fileID: 7444141751158519730, guid: 0d7fb8190233942e98e8591b88aba176, type: 3}
+  - {fileID: 7996249785987894886, guid: c17d50f5e16414a5a808599dfba0d4e2, type: 3}
+  - {fileID: 3484263902305479706, guid: 05768adb78f0249cdbe7f63ac2e548cb, type: 3}
+  - {fileID: 2973085276051078299, guid: e79a276c083214ecd8586672a40509ec, type: 3}
+  - {fileID: 300516549722219749, guid: e2382389ab2934983b0d148828d0241b, type: 3}
+  - {fileID: 1081723048111805905, guid: 003a2934eb7da49bea0e3f77605bca56, type: 3}
+  - {fileID: 449129014898353033, guid: 25e03de361233464d9219509bae05346, type: 3}
+  - {fileID: 6392274931763878654, guid: e6c461611e8f64f4abba0cb1210d54bc, type: 3}
+  - {fileID: 3159122038828982795, guid: 7d813cd9760d540b58f0ccd4b4a9b451, type: 3}
+  interval: 3
+  EnemySum: 10
+  Jewel: {fileID: 1546598880030496222, guid: 87be11619eed644d38724f93a5f448ad, type: 3}
+  makeDungeon: {fileID: 0}
+--- !u!114 &1023568443313812304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023568443313812307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58dd25cd77651411da3e87572f973bb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemySpawn: {fileID: 1023568443313812305}
+--- !u!114 &1023568443313812319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023568443313812307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd51fb3378c40473c9d954edc49ba416, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
